@@ -8,12 +8,15 @@ echo "Ext ip: $EXT_IP"
 
 sudo apt-get update
 
-sudo apt-get install -y ssh tmux puppet vim vim-gtk3 git openvpn lastpass-cli nmap aptitude sshfs snapd
+sudo apt-get install -y ssh tmux puppet vim git openvpn lastpass-cli nmap aptitude sshfs snapd
 
 sudo apt-get dist-upgrade -y
 
 # multimedia
 # sudo apt-get install -y mplayer ffmpeg vlc
+
+# gui
+# sudo apt-get install -y vim-gtk3 thunar
 
 
 # snap packages
